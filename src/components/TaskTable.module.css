@@ -1,0 +1,57 @@
+.table {
+    width: 46rem;
+    margin: 5.68rem auto 0rem;
+    
+}
+
+.taskHeader {
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.created {
+    color: var(--blue-100);
+    font-weight: 700;
+}
+.created span{
+    margin: 0 0 0 0.5rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 11px 11px 11px 11px ;
+    color: var(--white-100);
+    background-color: var(--gray-400);
+}
+
+
+.completed {
+    color: var(--purple-100);
+    font-weight: 700;
+}
+.completed span{
+    margin: 0 0 0 0.5rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 11px 11px 11px 11px ;
+    color: var(--white-100);
+    background-color: var(--gray-400);
+}
+
+.emptyList{
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto 1rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    font-weight: 700;
+}
+
+.taskList {
+    margin: 1.5rem auto 0rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem;
+}
